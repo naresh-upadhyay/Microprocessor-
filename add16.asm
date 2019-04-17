@@ -1,0 +1,17 @@
+
+;<Program title>
+LDA 2000h
+MOV C,A
+LDA 2005H
+ADD C
+MOV L,A
+STA 5000H
+LDA 2001H
+MOV B,A
+LDA 2006H
+ADC B
+MOV H,A
+STA 5001H
+
+
+hlt
